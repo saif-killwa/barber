@@ -1,0 +1,340 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+/*hedhi el template*/
+.template{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    background: #D5B981;
+}
+.template-left{
+    position: relative;
+    top: 180px;
+    left: 100px;
+    width: 70%;
+    height: 70%;
+    
+}
+.template-left h1{
+    width: 400px;                       
+    margin-left: 50px;
+    
+}
+h1{
+    font-size: 45px;
+    color: #1d2434;
+}
+.template-left p{
+    margin-left: 50px;
+    width: 500px;
+    color: #1d2434;
+}
+p{
+    color: gray;
+}
+.template-left button{
+    margin-left: 50px;
+}
+button{
+    padding: 10px 20px;
+    background: transparent;
+    color: #1d2434;
+    border-color: #1d2434;
+}
+.template-left img{
+    position: absolute;
+    width: 100px;
+    margin-left: 500px;
+    margin-top: 50px;
+}
+
+.template-right{
+    position: absolute;
+    width: 40%;
+    right: 0; 
+}
+.template-right img{
+    position: absolute;
+    right: 0;
+    width: 85%;
+}
+
+/*w hedhi el "learn about us"*/
+.learn-aboutUs{
+    position: relative;
+    display: flex;
+    height: 510px;
+}
+.about-img{
+    display: flex;
+    position: relative;
+    margin-top: 50px;
+    margin-left: 200px;
+    width: 25%;
+}
+.about-img .background{
+    background: #1d2434;
+    position:relative;
+    width: 300px;
+    height: 400px;
+}
+.about-img .border{
+    position:absolute;
+    border: 1px solid white;
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 300px;
+    height: 400px;
+    z-index: 1;
+}
+.about-img .taswira{
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    margin-top: 60px;
+    margin-left: 60px;
+}
+.about-img .taswira img{
+    width: 100%;
+    height: 400px;
+}
+.about-experience{
+    margin-top: 120px;
+    margin-left: 10px;
+    width: 900px;
+}
+.about-experience p{
+    width: 700px;
+
+}
+/*services for our salon*/
+.our-salon{
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+}
+.title-salon{
+    text-align: center;
+    margin-top: 50px;
+}
+.title{/*title h1 mta3 kol section tabda mel section el 3*/
+    width: 590px;
+    position: absolute;
+    left: 30%;
+    padding-bottom: 50px;
+}
+.exp-salon{
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-between;
+    width: 85%;
+}
+.exp-salon .hair-cut{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.exp-salon .hair-cut h3{
+    color: #1d2434;
+    font-weight: bold;
+}
+.exp-salon .hair-cut .border-2{
+    background: transparent;
+    border: 1px solid white;
+    width: 350px;
+    height: 260px;
+    z-index: 1;
+    position: absolute;
+    margin-top: 20px;
+}
+/*div mta3 el best price */
+.our-best-price{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.title-price{
+    padding: 50px;
+    text-align: center;
+}
+.title-price h1{
+    width: 450px;
+}
+.price{
+    width: 80%;
+}
+.price .section1{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+.section1 .section2{
+    display: flex;
+    width: 260px;
+    background: #80808017;
+}
+.section3{
+    margin-top: 32px;
+    margin-left: 15px;
+    margin-bottom: 30px;
+}
+.border3{
+    border: 1px solid white;
+    width: 80px;
+    height: 80px;
+    z-index: 1;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.client{
+    background-image: url(img/testimonial-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 757px;  
+}
+.bg-opacity{
+    position: absolute;
+    width: 100%;
+    height: 756px;
+    background: #1d2434;
+    z-index: 1;
+    opacity: 0.7;
+    box-shadow: inset;
+}
+
+.client .client-container{
+    width: 40%;
+    position: relative;
+    top: 30%;
+    left: 26%;
+    z-index: 2;
+}
+.client-container img{
+    border-radius: 50%;
+    
+}
+.client-container .text{
+    color: rgba(255, 255, 255, 0.817);
+    
+}
+.client-container h4{
+    color: rgba(255, 217, 0, 0.697);
+}
+.arrow{
+    display: flex;
+}
+.left-arrow{
+    background: rgba(255, 217, 0, 0.329);
+    border-radius: 50%;
+    width: 80px;
+    height: 79px;
+}
+.left-arrow i{
+    font-size: 80px;
+    width: 100%;
+}
+.right-arrow{
+    margin-left: 20px;
+    background: rgba(255, 217, 0, 0.321);
+    border-radius: 50%;
+    width: 80px;
+    height: 79px;
+
+}
+.right-arrow i{
+    font-size: 80px;
+    font-style: red;
+    width: 100%;
+}
+/*partie 5*/
+.barber-team{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding-top: 100px ;
+}
+.title_team h1{
+    width: 500px;
+    padding-bottom: 50px;
+}
+.team{
+    display: flex;
+    justify-content: space-between;
+    width: 1310px;
+    height: 500px;
+}
+.team .expert .border4{
+    position: absolute;
+    margin: 20px;
+    width: 258px;
+    height: 299px;
+    z-index: 1;
+    border: 1px solid white;
+}
+.expert .expert-name{
+    position: absolute;
+    background: #edecec;
+    width: 260px;
+    margin-left: 20px;
+    height: 120px;
+    margin-top: -76px;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.expert-name b{
+    padding-bottom: 10px;
+    font-weight: 500;
+}
+/*partie 6*/
+.form-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    background: #1d2434
+}
+.taswira-form{
+    position: relative;
+    width: 450px;
+    height: 450px;
+}
+.taswira-form img{
+    width: 100%;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+}
+.form .inp{
+    background: transparent;
+    width: 900px;
+    padding-bottom: 5px;
+    margin-bottom: 25px;
+    border: none;
+    border-bottom: 2px solid #D5B981;
+    color: white;
+}
+.form .inp:hover{
+    border: none;
+}
+
+.form button{
+    position: absolute;
+    color:#D5B981;
+    border-color: #D5B981;
+    margin-top: 353px;
+    
+}
+.form button:hover{
+    border: none;
+}
